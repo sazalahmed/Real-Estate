@@ -1,0 +1,53 @@
+1. fix this https://prnt.sc/1rybqcq, also here https://prnt.sc/1ryiawh=====OK
+2. add dropdown here https://prnt.sc/1ryc17p , like this https://prnt.sc/1rybxq4=====OK
+3. add another badge for 'urgent' property. like https://prnt.sc/1ryd65z also property_list view page https://prnt.sc/1ryd95c=====OK
+4.property grid and list view will look like that  https://prnt.sc/1rydwv8 , https://prnt.sc/1rye4yy,  https://prnt.sc/1rye9vf=====OK
+5. add button inside description section https://prnt.sc/1ryf2bh, like https://prnt.sc/1ryf56i=====OK
+
+6. add another badges here https://prnt.sc/1ryfl9c  for track featured and verified property. like https://prnt.sc/1ryfcgw=====OK
+7. need to change https://prnt.sc/1ryg3p0. avarage rating will automaticly calculate. like https://resido.thesky9.com/properties/6007-applegate-lane ,
+https://prnt.sc/1ryg0xt=====OK 
+   
+8. need agent public profile page with contact form and own property list like https://geniuscript.com/classifiedplace-re/index.php/profile/9/en/kety_springs=====OK
+
+9. need to change https://prnt.sc/1ryi37a, like https://resido.thesky9.com/account/properties/create , https://prnt.sc/1ryi6if=====OK
+10. please change sidebar menu functionality. you managed all section in one page, but I need another page for every section. https://prnt.sc/1ryix24=====OK
+
+
+
+date: 09-27-21
+
+1. sidebar not scrolling, https://prnt.sc/1tucxe5 =====OK 
+2. review section missing here https://prnt.sc/1txs9x9 , like https://prnt.sc/1txrrbh. also here https://prnt.sc/1txsmxg like https://prnt.sc/1txszyo =====OK  
+
+
+
+
+Solution: 30.09.2021
+
+1. sidebar scrolling probleam solved http://prntscr.com/1v4b4wb
+2. http://prntscr.com/1u7jl2k and http://prntscr.com/1u7ksnt
+
+
+
+
+Changes:  08-10-2021
+
+1. Move this item all dashboard page http://prntscr.com/1va5kps
+2. property details page add this http://prntscr.com/1va8e6u
+
+
+
+Changes:  13-10-2021
+
+1. Property page http://prntscr.com/1vvspsz & http://prntscr.com/1vvulni
+2. Property page http://prntscr.com/1vvsvvw (Add this line number 189, 209, 231, 253, 268)
+3. Property page (Search filter for small device) http://prntscr.com/1vy8640 & Added thid class http://prntscr.com/1vy91hs
+4. Property list view http://prntscr.com/1vymyvg, http://prntscr.com/1vyn0xg , http://prntscr.com/1vyn4tz , http://prntscr.com/1vyn99w
+5. style.css http://prntscr.com/1vyo822
+6. responsive.css http://prntscr.com/1vynp2s , http://prntscr.com/1vynxmw , 
+7. RTL.css http://prntscr.com/1vyog98 , http://prntscr.com/1vyok23 , http://prntscr.com/1vyome2
+8. main.js http://prntscr.com/1vyfqx3
+
+
+
