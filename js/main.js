@@ -31,7 +31,6 @@ $(function () {
     });
 
 
-
     //=======SELECT2====== 
     $(document).ready(function () {
         $('.select_2').select2();
@@ -92,7 +91,6 @@ $(function () {
     });
 
 
-
     //*==========SCROLL BUTTON==========  
     $('.wsus__scroll_btn').on('click', function () {
         $('html, body').animate({
@@ -111,7 +109,6 @@ $(function () {
     });
 
 
-
     //*======PROPERTY DETAILS======= 
     $('.pro_details_slider').slick({
         slidesToShow: 1,
@@ -121,7 +118,6 @@ $(function () {
         dots: true,
         arrows: false,
     });
-
 
 
     //*======PRODUCT VIDEO========  
@@ -136,8 +132,6 @@ $(function () {
     $(document).ready(function () {
         $('input[type="file"]').imageuploadify();
     })
-
-
 
 
     //*==========DASHBOARD MENU==========  
@@ -282,6 +276,8 @@ $(function () {
     });
 
 
+    // nice select
+    $('.select_js').niceSelect();
 
 
 
