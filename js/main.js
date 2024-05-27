@@ -281,8 +281,95 @@ $(function () {
 
 
 
+    // testimonial 2 slider
+    // $('.testimonial_3_slider').slick({
+    //     slidesToShow: 3,
+    //     slidesToScroll: 1,
+    //     autoplay: true,
+    //     autoplaySpeed: 4000,
+    //     dots: false,
+    //     arrows: true,
+    //     nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
+    //     prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
+
+    //     responsive: [
+    //         {
+    //             breakpoint: 1200,
+    //             settings: {
+    //                 slidesToShow: 2,
+    //                 slidesToScroll: 1,
+    //                 dots: true,
+    //                 arrows: false,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 992,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 dots: true,
+    //                 arrows: false,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 768,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 dots: true,
+    //                 arrows: false,
+    //             }
+    //         },
+    //         {
+    //             breakpoint: 576,
+    //             settings: {
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 dots: true,
+    //                 arrows: false,
+    //             }
+    //         }
+    //     ]
+    // });
 
 
+    // testimonial slider
+    $('.slider-for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        arrows: false,
+        asNavFor: '.slider-nav',
+        // nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
+        // prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
+
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
+
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider-for',
+        arrows: false,
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+    });
 
 
 });
