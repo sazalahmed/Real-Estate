@@ -8160,6 +8160,11 @@ SCROLL BUTTON  END
     color: var(--colorBlack);
 }
 
+.home_3 p,
+.home_3 span {
+    color: var(--paraColor);
+}
+
 .home_3 img {
     width: 100% !important;
     height: 100% !important;
@@ -8531,6 +8536,8 @@ SCROLL BUTTON  END
     font-size: 18px;
 }
 
+.wsus__about_us_3 .wsus__about_us_text_2 ul li .text p {}
+
 .wsus__about_us_3 .wsus__about_us_text_2 ul {
     margin-bottom: 55px;
     margin-top: 50px;
@@ -8785,7 +8792,7 @@ SCROLL BUTTON  END
     left: 15px;
     width: 40px;
     height: 40px;
-    line-height: 41px;
+    line-height: 43px;
     text-align: center;
     background: #1b6eea78;
     color: var(--colorWhite);
