@@ -333,7 +333,7 @@ $(function () {
     // });
 
 
-    // testimonial slider
+    // testimonial 3 slider
     $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -341,9 +341,6 @@ $(function () {
         autoplaySpeed: 4000,
         arrows: false,
         asNavFor: '.slider-nav',
-        // nextArrow: '<i class="fal fa-angle-right nextArrow"></i>',
-        // prevArrow: '<i class="fal fa-angle-left prevArrow"></i>',
-
         responsive: [
             {
                 breakpoint: 768,
@@ -370,6 +367,34 @@ $(function () {
         centerMode: true,
         focusOnSelect: true,
     });
+
+
+    // blog 3 slider
+    $('.blog_3_slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        dots: false,
+        arrows: true,
+        nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
+        prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    arrows: false,
+                }
+            }
+        ]
+    });
+
 
 
 });
