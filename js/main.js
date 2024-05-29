@@ -166,14 +166,6 @@ $(function () {
     });
 
 
-
-
-
-
-
-
-
-
     // Category 2 slider
     $('.category_2_slider').slick({
         slidesToShow: 5,
@@ -187,37 +179,25 @@ $(function () {
             {
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 4,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 3,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
+                    slidesToShow: 2,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
                 }
             }
         ]
@@ -240,26 +220,18 @@ $(function () {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
                 }
             },
             {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: true,
-                    arrows: false,
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: true,
                     arrows: false,
                 }
             },
@@ -267,8 +239,6 @@ $(function () {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
-                    dots: true,
                     arrows: false,
                 }
             }
@@ -279,58 +249,6 @@ $(function () {
     // nice select
     $('.select_js').niceSelect();
 
-
-
-    // testimonial 2 slider
-    // $('.testimonial_3_slider').slick({
-    //     slidesToShow: 3,
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 4000,
-    //     dots: false,
-    //     arrows: true,
-    //     nextArrow: '<i class="far fa-long-arrow-right nextArrow"></i>',
-    //     prevArrow: '<i class="far fa-long-arrow-left prevArrow"></i>',
-
-    //     responsive: [
-    //         {
-    //             breakpoint: 1200,
-    //             settings: {
-    //                 slidesToShow: 2,
-    //                 slidesToScroll: 1,
-    //                 dots: true,
-    //                 arrows: false,
-    //             }
-    //         },
-    //         {
-    //             breakpoint: 992,
-    //             settings: {
-    //                 slidesToShow: 1,
-    //                 slidesToScroll: 1,
-    //                 dots: true,
-    //                 arrows: false,
-    //             }
-    //         },
-    //         {
-    //             breakpoint: 768,
-    //             settings: {
-    //                 slidesToShow: 1,
-    //                 slidesToScroll: 1,
-    //                 dots: true,
-    //                 arrows: false,
-    //             }
-    //         },
-    //         {
-    //             breakpoint: 576,
-    //             settings: {
-    //                 slidesToShow: 1,
-    //                 slidesToScroll: 1,
-    //                 dots: true,
-    //                 arrows: false,
-    //             }
-    //         }
-    //     ]
-    // });
 
 
     // testimonial 3 slider
