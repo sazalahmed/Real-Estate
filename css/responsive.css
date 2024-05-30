@@ -1243,7 +1243,7 @@
     }
 
     .wsus__banner_2_search .select2-container--default .select2-selection--single .select2-selection__arrow b {
-        top: 20%;
+        top: 50%;
     }
 
     .wsus__category_2_item {
@@ -1261,6 +1261,24 @@
     .wsus__pricing_item_2 ul li {
         font-size: 14px;
     }
+
+    .wsus__banner_2_search .tab-content .wsus__adv_search_icon {
+        top: 22px;
+    }
+
+    .wsus__adv_search_area.show_search {
+        top: 112%;
+    }
+
+
+
+
+
+
+
+
+
+
 
     /*=================================
         HOME PAGE 2 END
@@ -2540,6 +2558,20 @@
     .wsus__banner_2_search .select2-container--default .select2-selection--single .select2-selection__arrow b {
         top: 20%;
     }
+
+    .wsus__banner_2_search .tab-content .wsus__adv_search_icon {
+        top: 22px;
+    }
+
+    .wsus__adv_search_area {
+        padding: 25px 25px 20px 25px;
+    }
+
+    .wsus__adv_search_area.show_search {
+        top: 115%;
+    }
+
+
 
     /*=================================
         HOME PAGE 2 END
@@ -3894,8 +3926,180 @@
         margin-bottom: 10px;
     }
 
+    .wsus__banner_2_search .tab-content .wsus__adv_search_icon {
+        top: 22px;
+    }
+
+    .wsus__adv_search_area.show_search {
+        top: 108%;
+    }
+
+    .wsus__adv_search_area {
+        padding: 25px 25px 20px 25px;
+    }
+
     /*=================================
         HOME PAGE 2 END
+    =================================*/
+
+
+    /*=================================
+        HOME PAGE 3 START
+    =================================*/
+    .main_menu_3 .container {
+        padding: 3px 12px;
+    }
+
+    .wsus__main_menu .navbar-brand img {
+        height: auto !important;
+    }
+
+    .main_menu_3 .navbar-brand {
+        width: 150px;
+    }
+
+    .main_menu_3 .navbar-toggler {
+        display: block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0;
+        background: var(--colorBlue);
+        border: none;
+        border-radius: 6px;
+        color: var(--colorWhite);
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+
+    .navbar-toggler {
+        font-size: 18px;
+    }
+
+    .banner_3 .wsus__banner_3_text h1 {
+        font-size: 36px;
+        max-width: 100%;
+    }
+
+    .banner_3 .wsus__banner_3_text p {
+        max-width: 100%;
+    }
+
+    .banner_3 {
+        height: auto;
+        padding: 140px 0px 100px 0px;
+    }
+
+    .category_3_item .text {
+        width: 100%;
+    }
+
+    .wsus__about_us_3 .wsus__about_us_2_img .img_1 {
+        height: auto;
+    }
+
+    .home_3 .wsus__section_heading h2 {
+        font-size: 28px;
+    }
+
+    .popular_property_3_item {
+        height: auto;
+    }
+
+    .wsus__video_3_content {
+        height: 220px;
+    }
+
+    .top_proproperty_3_item .img {
+        height: auto;
+    }
+
+    .top_proproperty_3_item .text {
+        padding: 35px 0px 5px 0px;
+    }
+
+    .top_proproperty_3_item .text ul li {
+        padding-right: 15px;
+    }
+
+    .top_proproperty_3_item .text ul {
+        gap: 15px;
+    }
+
+    .wsus__counter_3 ul li {
+        width: 100%;
+        border-right: 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .wsus__testimonial_3_overlay {
+        padding: 25px;
+    }
+
+    .wsus__testimonial_content p {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .wsus__pricing_item_3 {
+        padding: 28px 20px 20px 20px;
+    }
+
+    .wsus__pricing_item_3 ul li {
+        font-size: 14px;
+    }
+
+    .wsus__single_blog_3_img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wsus__single_blog_3_text {
+        max-width: 100%;
+    }
+
+    .wsus__newsletter_text {
+        padding-left: 0;
+    }
+
+    .wsus__newsletter_text::after {
+        display: none;
+    }
+
+    .wsus__newsletter_bg {
+        padding: 25px;
+    }
+
+    .wsus__newsletter_text h2 {
+        font-size: 24px;
+    }
+
+    .wsus__newsletter_text p {
+        margin-bottom: 20px;
+    }
+
+    .wsus__footer_3_left .footer_logo {
+        width: 160px;
+    }
+
+    .wsus__footer_3_link,
+    .wsus__footer_3_right {
+        margin-top: 50px;
+    }
+
+    .wsus__footer_3_link h4,
+    .wsus__footer_3_right h4 {
+        font-size: 24px;
+    }
+
+
+
+
+
+    /*=================================
+        HOME PAGE 3 END
     =================================*/
 
 

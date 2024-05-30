@@ -314,5 +314,24 @@ $(function () {
     });
 
 
+    // banner advance search
+    $(".wsus__adv_search_icon").on("click", function () {
+        $(".wsus__adv_search_area").toggleClass("show_search");
+    });
+
+    $(".wsus__adv_search_close").on("click", function () {
+        $(".wsus__adv_search_area").removeClass("show_search");
+    });
+
+    $('body').on("click", function (event) {
+        if ($(".wsus__adv_search_area").hasClass("show_search")) {
+            if (!$(event.target).closest('.wsus__banner_2_search').length) {
+                $(".wsus__adv_search_area").removeClass("show_search");
+            }
+        }
+    });
+
+
+
 
 });
